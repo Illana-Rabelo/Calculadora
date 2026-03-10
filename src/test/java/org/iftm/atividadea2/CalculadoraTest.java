@@ -28,7 +28,7 @@ public class CalculadoraTest {
         assertEquals(-3, calc.getMemoria());
     }
 
-    // Teste: Somar
+    // Testes: Somar
     @Test
     void testSomarPositivo() {
         Calculadora calc = new Calculadora(3);
@@ -47,7 +47,7 @@ public class CalculadoraTest {
         assertEquals(1, calc.getMemoria());
     }
 
-    // Teste: Subtrair
+    // Testes: Subtrair
     @Test
     void testSubtrairNumeroPositivo() {
         Calculadora calc = new Calculadora(10); 
@@ -148,3 +148,4 @@ void testExponenciarPor10() throws Exception {
         assertEquals(0, calc.getMemoria());
     }
 }
+
